@@ -6,6 +6,12 @@ common pitfalls as well working on Rubies that don't support them.
 
 It is a simple implementation of [Future][1] construct.
 
+## Resources
+
+* [Home Page](https://github.com/suetanvil/simple-future/)
+* [Issues](https://github.com/suetanvil/simple-future/issues)
+* [Reference Docs](http://www.rubydoc.info/gems/simple-future/1.0.0/)
+
 
 ## Basic idea
 

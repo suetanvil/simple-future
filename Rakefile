@@ -8,7 +8,6 @@ end
 
 YARD::Rake::YardocTask.new(:docs_via_yard) do |t|
   t.files = ['lib/*.rb']
-  t.options = ['-r', 'README.md']
 end
 
 task :gem do
