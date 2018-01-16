@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'simple-future'
-  s.version     = '1.0.0.pre'
+  s.version     = '1.0.0.pre1'
   s.date        = '2018-01-15'
   s.summary     = "A Future class for simple process-based concurrency."
   s.description = <<-EOF
