@@ -1,8 +1,8 @@
 
 Gem::Specification.new do |s|
   s.name        = 'simple-future'
-  s.version     = '1.0.0.pre1'
-  s.date        = '2018-01-15'
+  s.version     = '1.0.0'
+  s.date        = '2018-01-17'
   s.summary     = "A Future class for simple process-based concurrency."
   s.description = <<-EOF
     SimpleFuture is class that simplifies coarse-grained concurrency using
@@ -15,7 +15,13 @@ Gem::Specification.new do |s|
 EOF
   s.authors     = ["Chris Reuter"]
   s.email       = 'chris@blit.ca'
-  s.files       = ["lib/simple-future.rb"]
+
+  # I'm just going to add everything so that if you've got the gem,
+  # you've also got the source distribution.  Yay! Open source!
+  s.files       = ["README.md", "LICENSE.txt", "simple-future.gemspec",
+                   "Rakefile", ".yardopts"] +
+                  Dir.glob('doc/**/*') +
+                  Dir.glob('{spec,lib}/*.rb')
 
   s.required_ruby_version = '>= 2.2.0'
   s.requirements << "A version of Ruby that implements Process.fork"

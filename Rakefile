@@ -1,7 +1,7 @@
 require 'rake'
 require 'rspec/core/rake_task'
 require 'yard'
- 
+
 RSpec::Core::RakeTask.new(:test) do |t|
   t.pattern = Dir.glob('spec/*_spec.rb')
 end

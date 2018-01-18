@@ -1,2 +1,3 @@
---markup=markdown
-
+--markup markdown
+--readme README.md
+lib/*.rb

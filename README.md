@@ -10,7 +10,7 @@ It is a simple implementation of [Future][1] construct.
 
 * [Home Page](https://github.com/suetanvil/simple-future/)
 * [Issues](https://github.com/suetanvil/simple-future/issues)
-* [Reference Docs](http://www.rubydoc.info/gems/simple-future/1.0.0/)
+* [Reference Docs](http://www.rubydoc.info/gems/simple-future)
 
 
 ## Basic idea
